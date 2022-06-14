@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* nav bar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: crimson;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(withcar.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content h2{
+    margin-bottom: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5vmin;
+}
+.ctn{
+    padding: 8px 15px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    color: black;
+    margin-left: 155px;
+
+}
+div a:hover{
+    color: red;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+    background-image: none;
+
+}
+.title{
+    text-align: left;
+    font-size: 3vmin;
+    color: black
+ 
+}
+.cts{
+    padding: 10px 20px;
+    background-color: skyblue;
+    border-radius: 30px;
+    color: black;
+    margin-left: 155px;
+    margin-top: 50px;
+   
+}
+.title h1{
+    background: bisque;
+    padding: 8px 15px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line p{
+    padding: 8px 10px;
+    justify-content: space-between;
+    color: black;
+    text-align: left;
+    font-size: 3vmin;
+    
+}
+.insurance{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./car2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.insurance-content{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+}
+.insurance-content h1{
+    font-size: 7vmin;
+    margin: 50px;
+
+}
+.insurance-content p{
+    color: bisque;
+    font-size: 3vmin;
+    margin-left: 50px;
+
+}
+.insurance-content .ctn{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    margin-top: 10px;
+    background: dark rgb(36, 169, 102);
+    
+}
+.footer h2{
+    color: rgb(101, 101, 175);
+    margin: 10px auto;
+    padding:10px auto;
+}
+.footer a{
+    color: grey;
+    margin-top: 25%;
+    
+}
+.footer a:hover{
+    color: blue;
+}
+.cookies {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vmin;
+    text-align: center;
+    padding-left: 20px 80px;
+    width: 100%;
+    height: 100px;
+    font-style: italic;
+    margin-left: 50px;
+    margin-top: 35%;
+}
